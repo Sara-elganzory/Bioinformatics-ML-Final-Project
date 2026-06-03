@@ -1,15 +1,19 @@
+import os
 import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
 
-# Load the saved model and transformers
-# Note: Streamlit runs from the folder it's launched in, so we adjust paths
+# Create a bulletproof absolute path
+# This finds the exact folder app.py is in, then points to the models folder
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, '../models')
+
 @st.cache_resource
 def load_components():
-    model = joblib.load('../models/metabric_logistic_model.pkl')
-    scaler = joblib.load('../models/metabric_scaler.pkl')
-    selector = joblib.load('../models/metabric_selector.pkl')
+    model = joblib.load(os.path.join(MODEL_DIR, 'metabric_logistic_model.pkl'))
+    scaler = joblib.load(os.path.join(MODEL_DIR, 'metabric_scaler.pkl'))
+    selector = joblib.load(os.path.join(MODEL_DIR, 'metabric_selector.pkl'))
     return model, scaler, selector
 
 model, scaler, selector = load_components()
