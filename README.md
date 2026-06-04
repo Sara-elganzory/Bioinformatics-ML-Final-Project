@@ -26,7 +26,8 @@ The dataset used is the Breast Cancer Gene Expression Profiles (METABRIC). Due t
 
 ## 📈 Results & Output
 * **Winning Model:** Tuned Logistic Regression
-* **Evaluation Metrics:** * Precision: 0.78
+* **Evaluation Metrics:**
+  * Precision: 0.78
   * Recall: 0.98
     
 ![Streamlit Dashboard](screenshot.png)
