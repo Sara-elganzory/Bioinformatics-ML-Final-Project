@@ -8,7 +8,7 @@ This project develops an end-to-end machine learning pipeline to predict 5-year 
 
 ## 🔗 Critical Links
 * **Live Web Application:** https://bioinformatics-ml-final-project-gzvmt4ilpr7zo6wm8bkkku.streamlit.app/
-* **Demo Video Presentation:** [Insert your Video Link Here]
+* **Demo Video Presentation:** https://drive.google.com/file/d/1NXXMwrFaYeq85eqUwYkpAcA9-2e7M_LL/view?usp=sharing
 
 ## 📊 Dataset Source
 The dataset used is the Breast Cancer Gene Expression Profiles (METABRIC). Due to its size, it is not hosted directly in this repository. 
