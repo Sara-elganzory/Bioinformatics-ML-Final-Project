@@ -36,7 +36,7 @@ if st.button("Predict 5-Year Survival"):
     input_array = np.array(user_inputs).reshape(1, -1)
     
     # We skip scaling/selecting here because the dummy inputs simulate post-processed data. 
-    # If feeding raw data, you would apply scaler.transform() and selector.transform() first.
+    # If feeding raw data, we would apply scaler.transform() and selector.transform() first.
     prediction = model.predict(input_array)
     probability = model.predict_proba(input_array)[0][1]
     
