@@ -7,7 +7,7 @@ This project develops an end-to-end machine learning pipeline to predict 5-year 
 * Sara Elganzory
 
 ## 🔗 Critical Links
-* **Live Web Application:** [https://bioinformatics-ml-final-project-gzvmt4ilpr7zo6wm8bkkku.streamlit.app/]
+* **Live Web Application:** https://bioinformatics-ml-final-project-gzvmt4ilpr7zo6wm8bkkku.streamlit.app/
 * **Demo Video Presentation:** [Insert your Video Link Here]
 
 ## 📊 Dataset Source
